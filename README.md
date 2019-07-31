@@ -1,5 +1,22 @@
 # english-directions
 
+This project is born from a vocabulary exercise in English class, the idea is to guide an element through voice commands.
+
+Demo: https://english-directions.web.app/
+
+## How work
+You need a verb `Go` or `Turn`, una dirección: `Right`, `Left`, `Back` or `Straight`, and one number (`0 to 10`).
+
+Examples:
+- Turn left 4 blocks.
+- Go back 5 blocks.
+- Go straight five blocks.
+
+## Todo List
+- Add obstacles
+- Add multi-user
+- Add challenge, points and any goal.
+
 ## Project setup
 ```
 npm install
