@@ -17,6 +17,8 @@ import HelloWorld from './components/HelloWorld.vue'
 import recognition from './utils/recognition'
 import interpretation from './utils/interpretation'
 
+const CIRCLE_SIZE = 50
+
 export default {
   name: 'app',
   components: {
@@ -27,9 +29,9 @@ export default {
       finalTranscript: null,
       interimTranscript: null,
       error: null,
-      circleSize: 50,
-      left: parseInt(window.innerWidth / 50 / 2),
-      top: parseInt(window.innerHeight / 50 / 2)
+      circleSize: CIRCLE_SIZE,
+      left: parseInt(window.innerWidth / CIRCLE_SIZE / 2),
+      top: parseInt(window.innerHeight / CIRCLE_SIZE / 2)
     }
   },
   mounted() {
