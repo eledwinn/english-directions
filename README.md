@@ -4,6 +4,8 @@ This project is born from a vocabulary exercise in English class, the idea is to
 
 Demo: https://english-directions.web.app/
 
+Tested in Google Chrome.
+
 ## How work
 You need a verb `Go` or `Turn`, una dirección: `Right`, `Left`, `Back` or `Straight`, and one number (`0 to 10`).
 
